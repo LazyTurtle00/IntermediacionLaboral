@@ -94,6 +94,11 @@ IntermediacionLaboral/
 ├── config/           # Configuraciones de sistema
 ├── imgs/             # Recursos gráficos
 └── index.php         # Punto de entrada principal
-▶️ Cómo ejecutar el proyecto en localClonar el repositorio:Bashgit clone [https://github.com/LazyTurtle00/IntermediacionLaboral.git](https://github.com/LazyTurtle00/IntermediacionLaboral.git)
-Ingresar a la carpeta del proyecto:Bashcd IntermediacionLaboral
-Colocar el proyecto en su servidor local:Por ejemplo, si utiliza Laragon, ubíquelo en:C:\laragon\www\intermediacion-laboral-jovenesIniciar el servidor local:Abra Laragon (o XAMPP) y encienda el servicio Apache.Abrir en el navegador:Vaya a la dirección: http://localhost/intermediacion-laboral-jovenes/🔑 Usuarios de pruebaActualmente, la autenticación funciona de forma simulada (hardcoded) en el archivo controllers/auth.php:RolCorreoContraseñaJovenjoven@test.com123Empresaempresa@test.com123Adminadmin@test.com123⚠️ Estado actual del proyectoEste proyecto es un prototipo funcional de carácter académico.Completado: Interfaz principal, manejo de roles por sesión y navegación funcional.Pendiente: Integración con Base de Datos (MySQL), persistencia real de datos, validaciones robustas y carga real de archivos.👨‍💻 AutorSteven Fallas Madrigal Estudiante de Ingeniería en Software - Universidad Fidélitas📄 LicenciaEste proyecto se comparte exclusivamente con fines académicos y educativos.<div align="center">💼 Conectando talento joven con oportunidades reales</div>
+
+⚠️ Estado actual del proyectoEste proyecto es un prototipo funcional de carácter académico.
+Completado: Interfaz principal, manejo de roles por sesión y navegación funcional.Pendiente: Integración con Base de Datos (MySQL), persistencia real de datos, validaciones robustas y carga real de archivos.
+👨‍💻 Autor
+Steven Fallas Madrigal Estudiante de Ingeniería en Software - Universidad Fidélitas
+📄 Licencia
+Este proyecto se comparte exclusivamente con fines académicos y educativos.
+<div align="center">💼 Conectando talento joven con oportunidades reales</div>
