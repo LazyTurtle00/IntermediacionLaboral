@@ -1,0 +1,306 @@
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #ec4899;
+    --light-bg: #f8fafc;
+    --dark-text: #1e293b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scrollbar-gutter: stable; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    min-height: 60vh;
+}
+
+section {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+section p {
+    color: #64748b;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Forms */
+
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--dark-text);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+#bg-header-registro {
+    background: linear-gradient(70deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 2rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn {
+    color: white !important;
+}
+.btn-gradiente {
+    padding: 0.85rem 1.5rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white !important;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.btn-gradiente:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(99, 102, 241, 0.3);
+    color: white;
+}
+
+.btn-gradiente:active {
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1.5rem 0;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0 1rem;
+    }
+
+    main {
+        margin: 1.5rem auto;
+    }
+
+    section {
+        padding: 1.25rem;
+        border-radius: 8px;
+    }
+}
+
+/* --- Estilos personalizados para las Tabs del Perfil --- */
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border-bottom: 3px solid transparent !important;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0d6efd;
+    border-bottom: 3px solid #dee2e6 !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd !important;
+    border-bottom: 3px solid #0d6efd !important;
+    background-color: transparent !important;
+}
+/* --- Mantener tamaño fijo en el contenido de los Tabs --- */
+.card {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- 3. EL HUB DE PERFIL (Joven y Empresa) --- */
+/* Solo aplicamos la altura y el ancho fijo a este contenedor específico */
+.contenedor-fijo-perfil {
+    min-height: 650px !important; 
+    width: 100% !important;
+    display: block !important;
+}
+
+/* Aseguramos que las tablas ocupen todo el ancho y no se encojan */
+.tab-pane table {
+    width: 100% !important;
+    min-width: 100%;
+}
+
+/* --- 4. TABS MODERNOS (Sin CSS en el PHP) --- */
+.nav-tabs .nav-link {
+    color: #6c757d;
+    border-bottom: 3px solid transparent !important;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #0d6efd;
+    border-bottom: 3px solid #dee2e6 !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd !important;
+    border-bottom: 3px solid #0d6efd !important;
+    background-color: transparent !important;
+    font-weight: bold;
+}
+.tarjeta-registro {
+    /* Forzamos a que ocupe el 100% del ancho de su columna */
+    width: 100% !important; 
+    max-width: none !important; 
+    min-width: 350px; /* Evita que sea demasiado pequeña en móviles */
+    margin: 0 auto;
+    display: block;
+}
+
+/* Aseguramos que los grupos de entrada (iconos + inputs) se estiren */
+.tarjeta-registro .input-group {
+    width: 100% !important;
+}
+
+/* Si tenías un estilo global de .card que limitaba el ancho, esto lo sobreescribe */
+.container .row .tarjeta-registro {
+    flex: 1 1 auto;
+}
