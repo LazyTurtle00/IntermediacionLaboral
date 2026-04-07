@@ -101,4 +101,5 @@ Completado: Interfaz principal, manejo de roles por sesión y navegación funcio
 Steven Fallas Madrigal Estudiante de Ingeniería en Software - Universidad Fidélitas
 📄 Licencia
 Este proyecto se comparte exclusivamente con fines académicos y educativos.
-<div align="center">💼 Conectando talento joven con oportunidades reales</div>
+💼 Conectando talento joven con oportunidades reales 
+
