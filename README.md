@@ -98,14 +98,15 @@ IntermediacionLaboral/
 
 ⚠️ Estado actual del proyectoEste proyecto es un prototipo funcional de carácter académico.
 Completado: Interfaz principal, manejo de roles por sesión y navegación funcional.Pendiente: Integración con Base de Datos (MySQL), persistencia real de datos, validaciones robustas y carga real de archivos.
-👨‍💻 Autores
-Steven Fallas Madrigal Estudiante de Ingeniería en Software - Universidad Fidélitas
-Monica Calderon Cordero Estudiante de Ingeniería en Software - Universidad Fidélitas
-Karolay Alfaro Guerrero Estudiante de Ingeniería en Software - Universidad Fidélitas
-Johan Espinoza Gonzalez Estudiante de Ingeniería en Software - Universidad Fidélitas
-📄 Licencia
-Este proyecto se comparte exclusivamente con fines académicos y educativos.
+# 👨‍💻 Autores
+* Steven Fallas Madrigal Estudiante de Ingeniería en Software - Universidad Fidélitas
+* Monica Calderon Cordero Estudiante de Ingeniería en Software - Universidad Fidélitas
+* Karolay Alfaro Guerrero Estudiante de Ingeniería en Software - Universidad Fidélitas
+* Johan Espinoza Gonzalez Estudiante de Ingeniería en Software - Universidad Fidélitas
+
+# 📄 Licencia
+* Este proyecto se comparte exclusivamente con fines académicos y educativos.
+
 <div align="center">
 💼 Conectando talento joven con oportunidades reales 
 </div>
-
