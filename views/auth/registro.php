@@ -7,7 +7,7 @@ include '../templates/header.php';
 <main class="py-5 bg-light min-vh-100 d-flex align-items-center">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-12 col-lg-12 col-xl-10">
+            <div class="col-12 col-md-12 col-lg-12">
                 
                 <div class="card shadow-lg border-0 rounded-4">
                     <div class="card-body p-4 p-md-5">
