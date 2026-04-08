@@ -94,6 +94,7 @@ IntermediacionLaboral/
 ├── config/           # Configuraciones de sistema
 ├── imgs/             # Recursos gráficos
 └── index.php         # Punto de entrada principal
+```
 
 ⚠️ Estado actual del proyectoEste proyecto es un prototipo funcional de carácter académico.
 Completado: Interfaz principal, manejo de roles por sesión y navegación funcional.Pendiente: Integración con Base de Datos (MySQL), persistencia real de datos, validaciones robustas y carga real de archivos.
